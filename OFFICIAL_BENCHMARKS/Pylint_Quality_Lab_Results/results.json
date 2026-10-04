@@ -1,0 +1,15 @@
+{
+  "benchmark": "Pylint_Quality_Lab_Results",
+  "project": "L_EDGEAGENT",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://pylint.readthedocs.io/",
+  "results": {
+    "framework": "Pylint \u2014 Python Code Quality Analyzer",
+    "source": "https://pylint.readthedocs.io/",
+    "files_analyzed": 5,
+    "pylint_score": 4.59,
+    "pylint_score_max": 10.0,
+    "status": "FAIL",
+    "raw_output": "************* Module agent_from_any_llm\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:23:0: C0301: Line too long (117/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:28:0: C0301: Line too long (104/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:30:0: C0301: Line too long (259/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:1:0: E0401: Unable to import 'smolagents' (import-error)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:15:0: C0103: Constant name \"chosen_inference\" doesn't conform to UPPER_CASE naming style (invalid-name)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:43:16: W0613: Unused argument 'location' (unused-argument)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:43:31: W0613: Unused argument 'celsius' (unused-argument)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\agent_from_any_llm.py:55:52: E0606: Possibly using variable 'model' before assignment (possibly-used-before-assignment)\n************* Module gradio_ui\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\gradio_ui.py:6:0: C0301: Line too long (102/100) (line-too-long)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\gradio_ui.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\gradio_ui.py:1:0: E0401: Unable to import 'smolagents' (import-error)\n************* Module inspect_multiagent_run\nTIER_5_WORLD_NEURO_EMBODIED\\L_EDGEAGENT\\UPSTREAM\\examples\\inspect_multiagent_run.py:1:0: C0114: Missing module docstring (missing-module-docstring)\nTIER_5_WORLD_NEURO_EMBODIED\\L_ED"
+  }
+}
